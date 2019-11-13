@@ -22,8 +22,8 @@ public class JsonMessage extends MessageProcessor {
 
     }
 
-    public void prepareMessage(String Message1, String Message2  ){
-        System.out.println("Message Type: " + JSON_NAME_FIELD + super.getBody() + Message1 + Message2 );
+    public void prepareMessage(String Message1, String Message2) {
+        System.out.println("Message Type: " + JSON_NAME_FIELD + super.getBody() + Message1 + Message2);
     }
 
 
