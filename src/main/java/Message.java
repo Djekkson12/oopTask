@@ -4,5 +4,4 @@ public interface Message {
 
     void prepareMessage();
 
-
 }
